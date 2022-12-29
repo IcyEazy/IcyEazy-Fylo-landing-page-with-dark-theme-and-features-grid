@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    font-size: 14px;
+}
+.get{
+    background-color:  hsl(198, 60%, 50%);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: hsl(198, 60%, 50%);
+    transition: all 0.3s;
+}
+.get:hover{
+    background-color: hsl(176, 68%, 64%);
+    border-color: hsl(176, 68%, 64%);
+}
+
+.imgs{
+    width: 100%;
+}
+p{
+    line-height: 25px;
+}
+
+header{
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(217, 28%, 15%);
+    padding: 4rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+}
+nav a:hover{
+    font-weight: 700;
+    text-decoration: underline;
+}
+.team{
+    margin: auto 2rem;
+}
+
+main{
+    background-image: url("./images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.get-started{
+    padding: 2rem 20rem;
+    text-align: center;
+}
+.get-btn{
+    margin-top: 1rem;
+    width: 300px;
+}
+
+.files{
+    padding: 6rem 10rem;
+}
+.access-security, .real-store{
+    display: flex;
+    justify-content: space-between;
+}
+.file{
+    text-align: center;
+    margin: 2rem auto;
+    width: 300px;
+}
+
+.productive{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+}
+.prod-img, .prod-texts{
+    width: 50%;
+}
+.prod-texts{
+    margin-left: 3rem;
+}
+.prod-texts h1{
+    padding-right: 9rem;
+}
+.see-how{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.see-how:hover{
+    filter:  brightness(0) invert(1);
+}
+.see-how a{
+    color: hsl(176, 68%, 64%);
+    margin-right: .5rem;
+}
+hr{
+    margin: -1rem 0 0 0;
+    width: 155px;
+    background-color: hsl(176, 68%, 64%);
+}
+hr:hover{
+    background-color: white;
+}
+
+.testimonial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-image: url("./images/bg-quotes.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: 4.5rem;
+    margin: 7rem auto 4rem auto;
+    font-size: 13px;
+}
+.profile{
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 10px;
+    padding: 2rem;
+}
+.bruce{
+    margin: auto 2rem;
+}
+.profile-img{
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 1rem;
+}
+.img-name-prof{
+    display: flex;
+    align-items: center;
+}
+.name-profession{
+    display: flex;
+    flex-direction: column;
+}
+
+.get-early{
+    margin: auto 15rem;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+    background-color: hsl(219, 30%, 18%);
+    position: relative;
+    top: 7rem;
+}
+input, .form-btn, .get-btn{
+    border-radius: 30px;
+    padding: 1rem;
+}
+input{
+    width: 55%;
+    margin-right: 1.5rem;
+    border-color: white;
+}
+.form-btn{
+    width: 35%;
+}
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+}
+.footer-logo{
+    width: 140px;
+    margin: 5rem auto 2rem auto;
+}
+.footer-contents{
+    padding: 7rem 5rem 3rem 5rem;
+}
+.footer-texts{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-ul{
+    line-height: 35px;
+}
+.footer-ul li a{
+    transition: all 0.3s;
+}
+.footer-ul li a:hover{
+    font-weight: 700;
+}
+.footer-links li a img:hover{
+    background-color: hsl(176, 68%, 64%);
+}
+.loc{
+    position: relative;
+    top: .4rem;
+}
+.img-txt{
+    display: flex;
+    align-items: baseline;
+}
+.img-texts{
+    display: flex;
+    align-items: center;
+}
+.img-txt img{
+    margin-right: 2rem;
+}
+.img-texts img{
+    margin-right: 2rem;
+}
+.footer-links li a img{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: .2rem;
+    width: 25px;
+    height: 25px;
+    transition: all 0.3s;
+}
+.twitter{
+    margin: auto 1rem;
+}
+.lorem{
+    display: flex;
+}
+.div-ul{
+    display: flex;
+    margin: 0 6rem;
+}
+.img-texts, .contact{
+    margin-left: 5rem;
+}
+
+.attribution {font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(227, 50%, 44%);
+}
+
+#news_action .error {
+    color: red;
+    display: grid;
+}
+
+@media screen and (max-width: 900px){
+    .get-started{
+        padding: 2rem 11rem;
+    }
+    .file{
+        width: 200px;
+    }
+    .bruce{
+        margin: auto 1rem;
+    }
+    .get-early{
+        margin: auto 5rem;
+    }
+    .prod-texts h1{
+        padding-right: 0;
+    }
+    input{
+        width: 50%;
+    }
+    .form-btn{
+        width: 35%;
+    }
+    .div-ul{
+        display: flex;
+        margin: 0 3rem;
+    }
+    .img-texts, .contact{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 560px){
+    body{
+        font-size: 16px;
+    }
+    main{
+        background-image: url("./images/bg-curvy-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .logo{
+        width: 35%;
+    }
+    header{
+        padding: 1rem 2rem;
+    }
+    .team{
+        margin: auto 1rem;
+    }
+    .get-started{
+        padding: 1rem 2rem;
+    }
+    .get-started h1{
+        font-size: 25px;
+    }
+    .get-btn{
+        width: 80%;
+    }
+    .files{
+        padding: 6rem 2rem;
+    }
+    .access-security, .real-store{
+        flex-direction: column;
+        align-items: center;
+    }
+    .file{
+        width: auto;
+    }
+    .productive{
+        flex-direction: column;
+        padding: 1rem 2rem;
+    }
+    .prod-texts{
+        width: auto;
+        margin-left: 0;
+    }
+    .prod-texts h1{
+        font-size: 20px;
+        padding-right: 0;
+    }
+    .prod-img{
+        width: 100%;
+    }
+    .testimonial{
+        flex-direction: column;
+        padding: 1rem 3rem;
+        background-position-x: 2rem;
+        margin: 7rem auto 0 auto;
+        font-size: 12px;
+    }
+    .profile{
+        padding: 1rem;
+    }
+    .bruce{
+        margin: 2rem auto;
+    }
+    .get-early{
+        margin: auto 2rem;
+        top: 12rem;
+    }
+    .get-early h2{
+        font-size: 22px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-btn{
+        width: 100%;
+    }
+    input{
+        width: 85%;
+        margin: 0 0 1.5rem 0;  
+    }
+    .footer-logo{
+        margin: 9rem auto 2rem auto;
+    }
+    .footer-texts{
+        flex-direction: column;
+    }
+    .footer-contents{
+        padding: 7rem 2rem 2rem 2rem;
+    }
+    .footer-links{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-links li a img{
+        margin-top: 3rem;
+    }
+    .lorem{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .div-ul{
+        flex-direction: column;
+        margin: 4rem 0 0 0;
+    }
+    .contact{
+        margin-top: 2rem;
+    }
+    .img-texts, .contact{
+        margin-left: 0;
+    }
+}
